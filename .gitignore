@@ -1,7 +1,7 @@
 
 # Generated outputs
 results/
-.RData
+*.RData
 
 # System files
 .DS_Store
