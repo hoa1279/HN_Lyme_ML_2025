@@ -1,0 +1,19 @@
+# Data files (too large for GitHub)
+data/
+*.csv
+*.xlsx
+*.fasta
+
+# Generated outputs
+results/
+
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+# R
+.Rhistory
+.RData
+
