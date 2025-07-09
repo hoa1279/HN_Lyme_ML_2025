@@ -1,12 +1,7 @@
-# Data files (too large for GitHub)
-data/
-*.csv
-*.xlsx
-*.fasta
 
 # Generated outputs
 results/
-
+.RData
 
 # System files
 .DS_Store
