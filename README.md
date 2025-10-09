@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Machine Learning-Driven Identification of Virulence Determinants in Borrelia burgdorferi Associated with Human Dissemination
 
 ## Overview
@@ -13,8 +7,8 @@ manuscript "Machine Learning-Driven Identification of Virulence
 Determinants in Borrelia burgdorferi Associated with Human
 Dissemination" by Hoa T. Nguyen and Catherine A. Brissette (2025).
 
-**Paper Status:** Under Review\
-**Journal:** mBio\
+**Paper Status:** \
+**Journal:**\
 **DOI:**\
 **Preprint:**
 
@@ -36,7 +30,19 @@ evasion and bacterial persistence
 For questions about this code or research:
 
 -   **Corresponding Author:** Hoa Nguyen
-    ([hoa.t.nguyen\@und.edu](mailto:hoa.t.nguyen@und.edu){.email})
+    ([hoa.t.nguyen\@und.edu](mailto:hoa.t.nguyen@und.edu))
+
+
+
+## Execution order:
+1. Prepare fasta files including all aligned protein sequences and metadata file with classification of each sequence.
+2. OHE_code.R: perform one-hot-encoding for protein sequences and save to "{gene}_OHE.csv"
+3. Create_input_data.R: Prepare data for machine learning. Outputs are saved to "{gene}_fs_ML_input_data.RData"
+4. ML_remote.R: Perform machine learning modelling
+5. Collect_model_performance.R: Collect all performance metrics, VIP scores, Top20 features
+
+
+
 
 ------------------------------------------------------------------------
 
