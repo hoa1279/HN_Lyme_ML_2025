@@ -35,11 +35,11 @@ For questions about this code or research:
 
 
 ## Execution order:
-1. Prepare fasta files including all aligned protein sequences and metadata file with classification of each sequence.
-2. OHE_code.R: perform one-hot-encoding for protein sequences and save to "{gene}_OHE.csv".
-3. Create_input_data.R: Prepare data for machine learning. Outputs are saved to "{gene}_fs_ML_input_data.RData".
-4. ML_remote.R: Perform machine learning modelling.
-5. Collect_model_performance.R: Collect all performance metrics, VIP scores, Top20 features.
+1. Prepare FASTA files (aligned protein sequences) and metadata file (sequence classifications). Files can be found in `data/{gene}/` folder.
+2. OHE_code.R - One-hot encode sequences → {gene}_OHE.csv
+3. Create_input_data.R - Prepare ML input data → {gene}_fs_ML_input_data.RData
+4. ML_remote.R - Train machine learning models
+5. Collect_model_performance.R - Compile performance metrics, VIP scores, and top features
 
 
 
