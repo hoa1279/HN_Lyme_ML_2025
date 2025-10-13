@@ -1,4 +1,4 @@
-# Machine Learning-Driven Identification of Virulence Determinants in Borrelia burgdorferi Associated with Human Dissemination
+# Machine learning-driven identification of virulence determinants in <i>Borrelia burgdorferi<\i> associated with human dissemination
 
 ## Overview
 
