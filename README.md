@@ -40,11 +40,11 @@ For questions about this code or research:
 3. Create_input_data.R - Prepare ML input data → {gene}_fs_ML_input_data.RData
 4. ML_remote.R - Train machine learning models
 5. Collect_model_performance.R - Compile performance metrics, VIP scores, and top features
-
+6. best_model_with_rank.R - Identify best model based on a Composite Score = (ROC-AUC + Sensitivity + Specificity) / 3 
 
 
 
 ------------------------------------------------------------------------
 
-**Last Updated:** October 09, 2025\
+**Last Updated:** October 13, 2025\
 **Version:** 1.0.0
