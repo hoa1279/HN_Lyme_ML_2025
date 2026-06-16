@@ -5,12 +5,10 @@
 This repository contains the R code and analysis scripts for the
 manuscript "Machine Learning-Driven Identification of Virulence
 Determinants in Borrelia burgdorferi Associated with Human
-Dissemination" by Hoa T. Nguyen and Catherine A. Brissette (2025).
+Dissemination" by Hoa T. Nguyen and Catherine A. Brissette (2026).
 
-**Paper Status:** \
-**Journal:**\
-**DOI:**\
-**Preprint:** [10.1101/2025.07.09.663762](https://doi.org/10.1101/2025.07.09.663762)
+**Journal:** PLoS Comput Biol 
+**DOI:**  [https://doi.org/10.1371/journal.pcbi.1014407]
 
 ## Abstract
 
